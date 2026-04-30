@@ -1,0 +1,15 @@
+# 忽略后端代码（不参与前端构建）
+*.service.ts
+*.controller.ts
+prisma_schema.prisma
+backend/
+prisma/
+
+# 忽略文档
+*.md
+!README.md
+
+# 忽略其他配置
+docker-compose.yml
+setup-complete-project.sh
+.env.example
